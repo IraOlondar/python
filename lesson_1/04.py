@@ -2,16 +2,15 @@
 #  показывает диапазон возможных координат точек в этой четверти (x и y).
 
 def input_quarter():
-    not_error = True
-    while not_error:
+    not_error = False
+    while not not_error:
         try:
             number = int(input(f"Номер координатной четверти (1-4) = "))
             if 1 <= number <= 4:
-                not_error = False
+                not_error = True
                 a = number
             else:
-    
-                not_error = True
+                not_error = False
                 print("Это не номер четверти!\nПопробуйте еше раз")       
         except ValueError:
             print("Введено не число!\nПопробуйте еше раз")
