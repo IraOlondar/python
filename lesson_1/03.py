@@ -10,7 +10,6 @@ def input_coord():
         while not not_nul:
             try:
                 number = float(input(f"{nam} = "))
-                print(f"{number} {i}")
                 if number == 0:
                     not_nul = False
                     print("Координата не должно быть равна 0") 
