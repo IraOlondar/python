@@ -6,12 +6,12 @@
 def input_data():
     not_error = False
     while  not not_error:
-        out_int = input(f"Введите натуральное число: ")
+        out_int = input(f"Введите вещественное число: ")
         try:
-            int(out_int) 
+            float(out_int) 
             not_error = True
         except ValueError:
-            print("Введено не натуральное число!")
+            print("Введено не вещественное число!")
 
     return out_int
     
@@ -19,7 +19,8 @@ def input_data():
 def summ_int(number):
     summ = 0
     for item in number:
-        summ += int(item)
+        if item != ".":
+            summ += int(item)
     return summ
 
 
