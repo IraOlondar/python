@@ -4,5 +4,5 @@
 
 import math
 
-d =  int(input("Количество знаков после запятой: "))
+d =  int(len(input("Введите точность вывода числа Пи: ").split(".")[1]))
 print(f'число Пи равно: {round(math.pi, d)}')
