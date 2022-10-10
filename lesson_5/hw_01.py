@@ -33,6 +33,7 @@ def player(n, p):
         print(f"\nХодить первым будет {player}")
     
     s = 0
+    err = 0
     print(f"\nВсего конфет: {n}. Начнем игру")
     while n - s > 28:
         try:
@@ -46,19 +47,24 @@ def player(n, p):
                 else:
                     number = random.randint(1,28)
             else:
-                number = int(input(f"\n{player} возьмите от 1 до 28 конфет: "))
+                number = int(input(f"\n{player} возьми от 1 до 28 конфет: "))
             if number <= 28:
                 s += number
+                err = 0
                 print(f"\n{player} взял: {number}, сталось: {n - s}")
                 player = player_2 if player == player_1 else player_1
             else:
-                print("\nНужно ввести именно от 1 до 28. Попробуй еще раз")       
+                err += 1
+                if err > 1:
+                    print("\nДа хватит уже умничать! Вводи от 1 до 28")
+                else:
+                    print("\nНужно ввести именно от 1 до 28. Попробуй еще раз")       
         except ValueError:
-            print("\nВведено не число!\nПопробуйте еше раз")
+            print("\nВведено не число!\nПопробуй еше раз")
     print(f"\n{player} выйграл!")
 
 
-p = input(f"Выберите тип игры 1 - игра с ботом, 2 - два игрока: ")
+p = input(f"Выбери тип игры 1 - игра с ботом, 2 - два игрока: ")
 
 # 321 вместо 2021 для уменьшения времени игры
 player(321, p)
