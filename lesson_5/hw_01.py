@@ -37,7 +37,14 @@ def player(n, p):
     while n - s > 28:
         try:
             if player == "Бот":
-                number = random.randint(1,28)
+                if 86 <= n - s <= 112:
+                    number = n - s - 85
+                elif 58 <= n - s <= 84:
+                    number = n - s - 57
+                elif 30 <= n - s <= 56:
+                    number = n - s - 29
+                else:
+                    number = random.randint(1,28)
             else:
                 number = int(input(f"\n{player} возьмите от 1 до 28 конфет: "))
             if number <= 28:
@@ -48,7 +55,7 @@ def player(n, p):
                 print("\nНужно ввести именно от 1 до 28. Попробуй еще раз")       
         except ValueError:
             print("\nВведено не число!\nПопробуйте еше раз")
-    print(f"\nПоздравляю {player}, вы победили!")
+    print(f"\n{player} выйграл!")
 
 
 p = input(f"Выберите тип игры 1 - игра с ботом, 2 - два игрока: ")
