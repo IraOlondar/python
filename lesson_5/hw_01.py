@@ -48,7 +48,7 @@ def player(n, p):
                     number = random.randint(1,28)
             else:
                 number = int(input(f"\n{player} возьми от 1 до 28 конфет: "))
-            if number <= 28:
+            if 1 <= number <= 28:
                 s += number
                 err = 0
                 print(f"\n{player} взял: {number}, сталось: {n - s}")
