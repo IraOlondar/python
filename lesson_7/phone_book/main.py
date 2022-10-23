@@ -1,5 +1,5 @@
-import contriller
+import controller as controller
 import user_interface as ui
 
-contriller.init()
-contriller.user_choice()
+controller.init()
+controller.user_choice()

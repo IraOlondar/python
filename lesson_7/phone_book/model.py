@@ -1,7 +1,7 @@
 import json
 import csv
 import os.path
-import contriller
+import controller as controller
 import colorama
 from colorama import Fore, Back, Style
 import logger as lg
@@ -51,7 +51,7 @@ def add_to_json():
 def change_phone_number():  
     find_contact()
     print("Введите id контакта")
-    id = str(contriller.nul_menu())
+    id = str(controller.nul_menu())
     lg.logging.info("User entered: id = '" + id + "'")
     with open(path_to_db, "r", encoding="UTF-8") as file:
         data = json.load(file)
@@ -68,7 +68,7 @@ def change_phone_number():
 def change_surname():
     find_contact()
     print("Введите id контакта")
-    id = str(contriller.nul_menu())
+    id = str(controller.nul_menu())
     lg.logging.info("User entered: id = '" + id + "'")
     with open(path_to_db, "r", encoding="UTF-8") as file:
         data = json.load(file)
@@ -84,7 +84,7 @@ def change_surname():
 def delete_contact():
     find_contact()
     print("Введите id контакта")
-    id = str(contriller.nul_menu())
+    id = str(controller.nul_menu())
     lg.logging.info("User entered: id = '" + id + "'")
     with open(path_to_db, "r", encoding="UTF-8") as file:
         data = json.load(file)
@@ -113,7 +113,7 @@ def find_contact(only_find):
         if not if_found:
             sucess("По такому запросу результатов нет!", False)
     if only_find:
-        contriller.nul_menu()  
+        controller.nul_menu()  
 
 def view_all_contacts():
     with open(path_to_db, "r", encoding="UTF-8") as file:
@@ -121,7 +121,7 @@ def view_all_contacts():
         for i in range(0, len(data)):
             print(data[i])
     print()
-    contriller.nul_menu()
+    controller.nul_menu()
 
 
 def export_txt():
@@ -195,4 +195,4 @@ def sucess(text, ok):
         lg.logging.info("Sucess: " + text)
         print(Fore.GREEN + f"{text}")
     print(Style.RESET_ALL)
-    contriller.nul_menu()
+    controller.nul_menu()
