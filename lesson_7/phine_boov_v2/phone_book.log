@@ -1,0 +1,149 @@
+[24.10.2022 21:13:00 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:13:25 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:14:51 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:14:52 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:17:38 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:17:39 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:19:01 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:19:03 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:30:31 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:30:33 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:30:37 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:30:39 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:34:50 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:34:51 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:38:21 ] [INFO] [controller] [sucess: 39] => Sucess: Контакты успешно импортированы
+[24.10.2022 21:38:25 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:38:26 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:57:57 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:58:25 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:58:26 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:58:27 ] [INFO] [controller] [user_choice: 141] => User entered: inport_file = 
+[24.10.2022 21:59:38 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 21:59:39 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '9'
+[24.10.2022 21:59:40 ] [INFO] [controller] [user_choice: 141] => User entered: inport_file = import.csv
+[24.10.2022 21:59:40 ] [INFO] [controller] [sucess: 39] => Sucess: Контакты успешно импортированы
+[24.10.2022 22:00:22 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '0'
+[24.10.2022 22:00:29 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '8'
+[24.10.2022 22:00:32 ] [INFO] [controller] [user_choice: 131] => User entered: separator = ' '
+[24.10.2022 22:00:32 ] [INFO] [controller] [user_choice: 132] => User entered: export_file = 'export.txt'
+[24.10.2022 22:00:32 ] [INFO] [controller] [sucess: 39] => Sucess: Контакты успешно экспортированы в файл!
+[24.10.2022 22:00:39 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '0'
+[24.10.2022 22:00:44 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '5'
+[24.10.2022 22:00:58 ] [INFO] [controller] [user_choice: 100] => User entered: name = 'ники'
+[24.10.2022 22:01:31 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '0'
+[24.10.2022 22:01:35 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '6'
+[24.10.2022 22:01:44 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:02:05 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '0'
+[24.10.2022 22:02:10 ] [INFO] [controller] [digit_check: 48] => The user has selected item number '6'
+[24.10.2022 22:02:14 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:05:34 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:05:36 ] [INFO] [controller] [digit_check: 52] => The user has selected item number '6'
+[24.10.2022 22:05:44 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:06:02 ] [INFO] [controller] [digit_check: 52] => The user has selected item number '0'
+[24.10.2022 22:06:07 ] [INFO] [controller] [digit_check: 52] => The user has selected item number '6'
+[24.10.2022 22:06:11 ] [INFO] [controller] [choice_id: 28] => User entered: name = ''
+[24.10.2022 22:06:31 ] [INFO] [controller] [digit_check: 52] => The user has selected item number '3'
+[24.10.2022 22:06:31 ] [INFO] [controller] [user_choice: 107] => User entered: id = '3'
+[24.10.2022 22:08:24 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:08:25 ] [INFO] [controller] [digit_check: 52] => The user has selected item number '6'
+[24.10.2022 22:08:30 ] [INFO] [controller] [choice_id: 28] => User entered: name = ''
+[24.10.2022 22:08:33 ] [INFO] [controller] [digit_check: 52] => The user has selected item number '3'
+[24.10.2022 22:08:33 ] [INFO] [controller] [user_choice: 107] => User entered: id = '3'
+[24.10.2022 22:21:34 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:21:36 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '6'
+[24.10.2022 22:21:44 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:22:29 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:22:29 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '6'
+[24.10.2022 22:22:34 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:22:39 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '3'
+[24.10.2022 22:23:24 ] [INFO] [controller] [user_choice: 108] => User entered: id = ''
+[24.10.2022 22:23:24 ] [INFO] [controller] [sucess: 44] => Sucess: Контакт успешно удалён!
+[24.10.2022 22:26:00 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:26:01 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:26:06 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:26:13 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:26:13 ] [INFO] [controller] [user_choice: 106] => User entered: id = '6'
+[24.10.2022 22:26:59 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:27:00 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:27:02 ] [INFO] [controller] [choice_id: 28] => User entered: name = ''
+[24.10.2022 22:27:08 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:27:08 ] [INFO] [controller] [user_choice: 106] => User entered: id = '6'
+[24.10.2022 22:27:39 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:27:42 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:27:48 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:27:50 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:27:50 ] [INFO] [controller] [user_choice: 106] => User entered: id = '6'
+[24.10.2022 22:37:46 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:37:48 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:37:54 ] [INFO] [controller] [choice_id: 28] => User entered: name = 'ники'
+[24.10.2022 22:37:58 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 22:37:58 ] [INFO] [controller] [user_choice: 106] => User entered: id = '6'
+[24.10.2022 22:38:32 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:38:35 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 22:38:40 ] [INFO] [controller] [user_choice: 97] => User entered: name = ''
+[24.10.2022 22:40:05 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:40:06 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 22:40:07 ] [INFO] [controller] [user_choice: 97] => User entered: name = ''
+[24.10.2022 22:40:14 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 22:46:54 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:46:58 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 22:47:02 ] [INFO] [controller] [user_choice: 97] => User entered: name = 'ники'
+[24.10.2022 22:48:26 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:48:28 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 22:48:31 ] [INFO] [controller] [user_choice: 97] => User entered: name = 'ники'
+[24.10.2022 22:54:57 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 22:54:59 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 22:55:05 ] [INFO] [controller] [user_choice: 97] => User entered: name = 'ники'
+[24.10.2022 23:00:36 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 23:00:38 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 23:00:44 ] [INFO] [controller] [user_choice: 97] => User entered: name = 'ники'
+[24.10.2022 23:01:11 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 23:01:13 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '5'
+[24.10.2022 23:01:20 ] [INFO] [controller] [user_choice: 97] => User entered: name = 'ники'
+[24.10.2022 23:01:24 ] [INFO] [controller] [digit_check: 51] => The user has selected item number '6'
+[24.10.2022 23:06:31 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 23:06:33 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '5'
+[24.10.2022 23:06:37 ] [INFO] [controller] [user_choice: 99] => User entered: name = 'ники'
+[24.10.2022 23:06:40 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '4'
+[24.10.2022 23:06:41 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '4'
+[24.10.2022 23:06:41 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '4'
+[24.10.2022 23:06:42 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '3'
+[24.10.2022 23:07:01 ] [INFO] [controller] [digit_check: 53] => The user has selected item number ''
+[24.10.2022 23:07:01 ] [INFO] [controller] [digit_check: 56] => Error: Это должно быть число!
+[24.10.2022 23:07:04 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 23:07:06 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '4'
+[24.10.2022 23:07:21 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 23:07:22 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '5'
+[24.10.2022 23:07:26 ] [INFO] [controller] [user_choice: 99] => User entered: name = 'ники'
+[24.10.2022 23:07:29 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '4'
+[24.10.2022 23:07:30 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '5'
+[24.10.2022 23:07:31 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '6'
+[24.10.2022 23:07:38 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '0'
+[24.10.2022 23:07:47 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '6'
+[24.10.2022 23:07:51 ] [INFO] [controller] [choice_id: 30] => User entered: name = 'ники'
+[24.10.2022 23:07:57 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '6'
+[24.10.2022 23:08:25 ] [INFO] [controller] [<module>: 11] => Start
+[24.10.2022 23:08:28 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '6'
+[24.10.2022 23:08:32 ] [INFO] [controller] [choice_id: 30] => User entered: name = 'ники'
+[24.10.2022 23:08:35 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '6'
+[24.10.2022 23:08:35 ] [INFO] [controller] [user_choice: 109] => User entered: id = '6'
+[24.10.2022 23:08:35 ] [INFO] [controller] [sucess: 44] => Sucess: Контакт успешно удалён!
+[24.10.2022 23:08:47 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '0'
+[24.10.2022 23:08:59 ] [INFO] [controller] [digit_check: 53] => The user has selected item number '7'
+[24.10.2022 23:27:04 ] [INFO] [controller] [<module>: 12] => Start
+[24.10.2022 23:27:10 ] [INFO] [controller] [user_input: 19] => User entered: name = '5'
+[24.10.2022 23:27:14 ] [INFO] [controller] [user_input: 19] => User entered: name = 'ники'
+[24.10.2022 23:27:17 ] [INFO] [controller] [user_input: 19] => User entered: name = '5'
+[24.10.2022 23:27:19 ] [INFO] [controller] [user_input: 19] => User entered: name = '0'
+[24.10.2022 23:28:03 ] [INFO] [controller] [user_input: 19] => User entered: name = '6'
+[24.10.2022 23:28:07 ] [INFO] [controller] [user_input: 19] => User entered: name = ''
+[24.10.2022 23:28:10 ] [INFO] [controller] [user_input: 19] => User entered: name = '5'
+[24.10.2022 23:28:10 ] [INFO] [controller] [sucess: 48] => Sucess: Контакт успешно удалён!
+[24.10.2022 23:30:11 ] [INFO] [controller] [user_input: 19] => User entered: name = ''
+[24.10.2022 23:30:11 ] [INFO] [controller] [digit_check: 59] => Error: Это должно быть число!
+[24.10.2022 23:30:18 ] [INFO] [controller] [<module>: 12] => Start
+[24.10.2022 23:30:19 ] [INFO] [controller] [user_input: 19] => User entered: name = '6'
+[24.10.2022 23:30:20 ] [INFO] [controller] [user_input: 19] => User entered: name = ''
+[24.10.2022 23:30:22 ] [INFO] [controller] [user_input: 19] => User entered: name = '8'
+[24.10.2022 23:30:22 ] [INFO] [controller] [sucess: 48] => Sucess: Контакт id:8 успешно удалён!
