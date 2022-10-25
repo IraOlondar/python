@@ -1,1 +1,1 @@
-db_name = 'example.db'
+db_name = 'db.json'
