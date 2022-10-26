@@ -1,6 +1,4 @@
-import json
 import sqlite3
-import os.path
 import configuration as cf
 
 path_to_db = cf.db_name
