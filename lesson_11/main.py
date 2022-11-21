@@ -1,12 +1,12 @@
 from math import sin,cos
 import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
-import numpy
+from numpy import arange
 
 def print_graph():
-     x = [x for x in numpy.arange(-30, 30, 0.1)]
+     x = [x for x in arange(-30, 30, 0.1)]
      y = [(-12 * x ** 4 * sin(cos(x)) - 18 * x ** 3 + 5 * x ** 2 + 10 * x - 30) for
-          x in numpy.arange(-30, 30, 0.1)]
+          x in arange(-30, 30, 0.1)]
      plt.plot(x, y)
      plt.grid()
      plt.show()
